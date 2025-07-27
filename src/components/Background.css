@@ -1,0 +1,27 @@
+.background {
+  min-height: 100vh;
+  width: 100vw;
+  transition: background 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bg-sunny {
+  background: linear-gradient(135deg, #87ceeb 0%, #f9d423 100%);
+}
+.bg-cloudy {
+  background: linear-gradient(135deg, #d7d2cc 0%, #304352 100%);
+}
+.bg-rainy {
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+}
+.bg-snowy {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+.bg-thunder {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+.bg-default {
+  background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+} 
